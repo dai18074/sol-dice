@@ -5,25 +5,6 @@ let abi = [
     type: "constructor",
   },
   {
-    anonymous: false,
-    inputs: [
-      {
-        indexed: false,
-        internalType: "address",
-        name: "funder",
-        type: "address",
-      },
-      {
-        indexed: false,
-        internalType: "uint256",
-        name: "amount",
-        type: "uint256",
-      },
-    ],
-    name: "GameFunded",
-    type: "event",
-  },
-  {
     inputs: [],
     name: "fundGame",
     outputs: [],
